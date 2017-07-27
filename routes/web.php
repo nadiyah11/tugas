@@ -31,7 +31,7 @@ Route::get('/testmodel1', function() {
 
 
 Route::get('/testmodel2', function() {
-	$c=App\post::where('title','like','%cepat, nikah%')->get();
+	$c=App\post::where('title','like','%Tips cepet Nikah%')->get();
 	return $c;
 });
 
@@ -44,19 +44,19 @@ Route::get('/testmodel3', function() {
 
 
 Route::get('/test1', function() {
-	$aa=App\siswa::all();
+	$aa=App\Siswa::all();
 	return $aa;
 });
 
 
 Route::get('/test2', function() {
-	$bb=App\siswa::find(1);
+	$bb=App\Siswa::find(1);
 	return $bb;
 });
 
 
 Route::get('/test3', function() {
-	$cc=App\siswa::where('nama','like','%sindang')->get();
+	$cc=App\Siswa::where('nama','like','%melda%')->get();
 	return $cc;
 });
 
