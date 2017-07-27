@@ -13,9 +13,9 @@ class siswa extends Seeder
     {
         //
         $post=[
-        ['nama'=>'dani','alamat'=>'sekeandur'],
-        ['nama'=>'nisa','alamat'=>'sindang palay'],
-        ['nama'=>'melda','alamat'=>'cilisung'],
+        ['nama'=>'dani','alamat'=>'sekeandur','jk'=>'laki-laki'],
+        ['nama'=>'nisa','alamat'=>'sindang palay','jk'=>'perempuan'],
+        ['nama'=>'melda','alamat'=>'cilisung','jk'=>'perempuan'],
         
         ];
 
