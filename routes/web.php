@@ -18,6 +18,10 @@ Route::get('/a', function () {
     return view('index');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
 Route::get('/testmodel', function() {
 	$a=App\post::all();
 	return $a;
@@ -58,6 +62,13 @@ Route::get('/test2', function() {
 Route::get('/test3', function() {
 	$cc=App\Siswa::where('nama','like','%melda%')->get();
 	return $cc;
+});
+
+Route::get('/tampilan1', function () {
+    return view('tamp1');
+});
+Route::get('/tampilan2', function () {
+    return view('tamp2');
 });
 
 Auth::routes();
