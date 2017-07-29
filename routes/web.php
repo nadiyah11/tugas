@@ -70,6 +70,9 @@ Route::get('/tampilan1', function () {
 Route::get('/tampilan2', function () {
     return view('tamp2');
 });
+Route::get('/tampilan3', function () {
+    return view('tamp3');
+});
 
 Auth::routes();
 

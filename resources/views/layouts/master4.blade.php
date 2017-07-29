@@ -22,21 +22,22 @@
 			<!-- Nav -->
 				@include('layouts.nav')
 			<!-- End Nav -->
-			
-			<div class="jumbotron">
-				{{-- isi --}}
-					@yield('isi')
-				{{-- Akhir isi --}}
-			</div>
+		
 			<div class="col-md-13">
 			{{-- gambar --}}
 				@include('layouts.gambar')
 			{{-- End gambar --}}
 			</div>
+			<div class="jumbotron">
+				{{-- isi --}}
+					@yield('isi')
+				{{-- Akhir isi --}}
+			</div>
+
 		</div>
 	</div>
 	<div class="row">
-			{{-- col --}}
+	{{-- col --}}
 				@include('layouts.col')
 			{{-- End col --}}
 </div>
